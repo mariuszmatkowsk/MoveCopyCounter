@@ -46,7 +46,7 @@ public:
         return *this;
     }
 
-    Stats getStats() const {
+    static Stats getStats() {
         return stats;
     }
 };
